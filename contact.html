@@ -3,15 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <title>Contact | Makayla Calhoun</title>
+
+  <meta
+    name="description"
+    content="Contact Makayla Calhoun regarding healthcare operations, clinical administration, project coordination, and related opportunities."
+  />
+
   <link rel="stylesheet" href="css/styles.css" />
 </head>
+
 <body>
 
   <header class="nav">
     <div class="nav-inner">
       <a class="brand" href="index.html">Makayla Calhoun</a>
-      <nav class="links">
+
+      <nav class="links" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
@@ -23,54 +32,101 @@
 
     <section class="hero">
       <div class="kicker">Let’s Connect</div>
-      <h1>Open to internships and entry-level roles.</h1>
+
+      <h1>Open to healthcare operations and clinical administration opportunities.</h1>
+
       <p class="subtitle">
-        If you’d like to discuss opportunities in digital communications, web content, or design support,
-        feel free to reach out. I can also share additional work samples upon request.
+        I am interested in opportunities related to healthcare operations,
+        clinical administration, project coordination, process improvement,
+        and healthcare technology. Please feel free to contact me to discuss
+        my experience or qualifications.
       </p>
+
       <div class="btn-row">
-        <a class="btn primary" href="mailto:makaylcalhoun102@gmail.com">Email Me</a>
-        <a class="btn" href="https://www.linkedin.com/in/makayla-calhoun-033b991ba" target="_blank" rel="noopener">LinkedIn</a>
+        <a
+          class="btn primary"
+          href="mailto:makaylacalhoun102@gmail.com"
+        >
+          Email Me
+        </a>
+
+        <a
+          class="btn"
+          href="https://www.linkedin.com/in/makayla-calhoun-033b991ba"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
       </div>
     </section>
 
     <section class="section">
       <h2>Contact Information</h2>
+
       <div class="grid">
+
         <div class="card half">
-          <h3 style="margin:0 0 8px;">Email</h3>
-          <p style="margin:0;"><a href="mailto:makaylcalhoun102@gmail.com">makaylcalhoun102@gmail.com</a></p>
+          <h3 style="margin: 0 0 8px;">Email</h3>
+          <p style="margin: 0;">
+            <a href="mailto:makaylacalhoun102@gmail.com">
+              makaylacalhoun102@gmail.com
+            </a>
+          </p>
         </div>
+
         <div class="card half">
-          <h3 style="margin:0 0 8px;">Phone</h3>
-          <p style="margin:0;"><a href="tel:13016537646">301-653-7646</a></p>
+          <h3 style="margin: 0 0 8px;">Phone</h3>
+          <p style="margin: 0;">
+            <a href="tel:+13016537646">
+              301-653-7646
+            </a>
+          </p>
         </div>
+
         <div class="card half">
-          <h3 style="margin:0 0 8px;">LinkedIn</h3>
-          <p style="margin:0;">
-            <a href="https://www.linkedin.com/in/makayla-calhoun-033b991ba" target="_blank" rel="noopener">
+          <h3 style="margin: 0 0 8px;">LinkedIn</h3>
+          <p style="margin: 0;">
+            <a
+              href="https://www.linkedin.com/in/makayla-calhoun-033b991ba"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               linkedin.com/in/makayla-calhoun-033b991ba
             </a>
           </p>
         </div>
+
         <div class="card half">
-          <h3 style="margin:0 0 8px;">Location</h3>
-          <p style="margin:0;">Maryland</p>
+          <h3 style="margin: 0 0 8px;">Location</h3>
+          <p style="margin: 0;">Waldorf, Maryland</p>
         </div>
+
       </div>
     </section>
 
     <section class="section">
-      <h2>Core Skills</h2>
+      <h2>Areas of Interest</h2>
+
       <div class="grid">
+
         <div class="card half">
-          <h3 style="margin:0 0 8px;">Design</h3>
-          <p>Layout grids, typography, hierarchy, spacing/alignment, print-ready formatting, branding consistency.</p>
+          <h3 style="margin: 0 0 8px;">Healthcare Operations</h3>
+          <p>
+            Patient admissions, clinical documentation, electronic health
+            records, HIPAA compliance, workflow coordination, and daily
+            healthcare operations.
+          </p>
         </div>
+
         <div class="card half">
-          <h3 style="margin:0 0 8px;">Web & Content</h3>
-          <p>HTML/CSS structure, responsive layout basics, content formatting, navigation organization, editing.</p>
+          <h3 style="margin: 0 0 8px;">Operations &amp; Technology</h3>
+          <p>
+            Project coordination, process improvement, data analytics,
+            Microsoft Office, healthcare technology, and organizational support.
+          </p>
         </div>
+
       </div>
     </section>
 
@@ -79,12 +135,22 @@
   <footer class="footer">
     <small>
       © <span id="year"></span> Makayla Calhoun ·
-      <a href="https://www.linkedin.com/in/makayla-calhoun-033b991ba" target="_blank" rel="noopener">LinkedIn</a>
+      <a
+        href="https://www.linkedin.com/in/makayla-calhoun-033b991ba"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn
+      </a>
     </small>
   </footer>
 
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    const yearElement = document.getElementById("year");
+
+    if (yearElement) {
+      yearElement.textContent = new Date().getFullYear();
+    }
   </script>
 
 </body>
